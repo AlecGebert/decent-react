@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pageTitle {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.countriesList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.country {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.countryFlag {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.countryFlag img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.countryName {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.countryInfo {
+  width: 30rem;
+  font-weight: 400;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  cursor: pointer;
+}
+
+span {
+  font-size: 1.6rem;
+}
