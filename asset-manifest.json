@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/decent-react/static/css/main.588194e0.css",
+    "main.js": "/decent-react/static/js/main.c842718e.js",
+    "index.html": "/decent-react/index.html",
+    "main.588194e0.css.map": "/decent-react/static/css/main.588194e0.css.map",
+    "main.c842718e.js.map": "/decent-react/static/js/main.c842718e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.588194e0.css",
+    "static/js/main.c842718e.js"
+  ]
+}
